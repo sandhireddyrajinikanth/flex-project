@@ -1,0 +1,432 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+
+section{
+   width: 100%;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+
+.header{
+    padding-top: 10px;
+    padding-bottom: 2px;
+ box-shadow: 0 0 5px rgb(0 0 0 / 15%);
+   
+}
+
+.logo{
+    max-width: 25%;
+   flex: 0 0 25%;
+
+}
+.logo img{
+    width: 180px;
+}
+
+.menu{
+   max-width: 75%;
+   flex: 0 0 75%;
+
+}
+
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    font-weight: 600;
+
+}
+.text-right{
+    text-align: right;
+}
+.btnstyles{
+    background-color: red;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+
+.banner{
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 20px 0px;
+    background-color: #9b6b5c62;
+}
+
+.align-item-center{
+    align-items: center;
+}
+.jessica{
+    max-width: 45%;
+    flex: 0 0 45%;
+    background-repeat: no-repeat;
+}
+.jessica img{
+    width: 500px;
+    margin-left: 30px;
+}
+
+
+.myjobs{
+    max-width: 55%;
+    flex: 0 0 55%;
+    padding-left: 15px;
+
+}
+.myjobs h1{
+    color:rgb(199, 35, 35);
+    text-align: center;
+    line-height: 64px;
+    font-size: 73px;
+    margin-bottom: 20px ;
+}
+.myjobs p{
+     text-align: center;
+     font-size: 17px;
+     margin-bottom: 35px;
+
+
+} 
+.justify-content-center{
+    justify-content: center;
+}
+
+
+.btnstyles1{
+    padding: 10px;
+    background-color: rgb(109, 109, 228);
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+ 
+   margin-right: 25px;
+}
+
+.btnstyles a{
+    color: #fff; 
+    text-decoration: none;
+    font-size: 20px;
+}
+.btnstyles1 a{
+    color: #fff; 
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.what{
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 100px 50px 30px 50px;
+   
+ 
+}
+
+.right{
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding-right: 35px;
+}
+.left{
+     max-width: 50%;
+    flex: 0 0 50%;
+
+}
+.right h1{
+    font-size: 69px;
+    margin-bottom: 10px;   
+}
+ .right p{
+     font-weight: 500;
+     margin-bottom: 20px;
+     font-size: 18px;
+ }
+.web{
+    margin-right: 20px;
+}
+.content p{
+    font-weight: 300;
+
+}
+.web img{
+    width: 150px;
+}
+.web-design{
+    margin-bottom: 60px;
+}
+
+.my-work{
+    max-width: 100%;
+    flex: 0 0 100%;
+    background-color: #ece4c0;
+    padding: 35px 50px;
+}
+    
+.top h1{
+text-align: center;
+color: red;
+margin-bottom: 20px;
+}
+.top p{
+     font-size: 20px;
+     font-weight: 200;
+     text-align: center;
+     margin-bottom: 20px;
+}
+.bottom{
+    max-width: 100%;
+    flex: 0 0 100%;
+    
+}
+.mobile{
+    max-width: 23%;
+    flex: 0 0 23%;
+    margin-right:35px         
+}
+.mobile:last-child{
+    margin-right: 0px;
+}
+.mobile{
+    text-align: center;
+}
+.about-me{
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 50px 50px;
+    
+}
+.jessy{
+max-width: 50%;
+flex: 0 0 50%;
+}
+.jessy img{
+    background-repeat: no-repeat;
+    width: 600px;
+    margin-right: 20px;
+}
+.aboutme1{
+    max-width: 50%;
+flex: 0 0 50%;
+margin-left: 10px;
+}
+.aboutme1 h1{
+    color: rgb(231, 72, 72);
+    margin-top: 35px;
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+.aboutme1 p{
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+.aboutme1 p1{
+    font-weight: 200;
+}
+.dollar{
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 100px 50px ;
+    background-color: #ece4c0;
+}
+.webdesign{
+    max-width: 33%;
+    flex: 0 0 33%;
+    background-color: #fff;
+    max-height: 100%;
+}
+.webdesign h1{
+    text-align: center;
+    font-size: 32px;
+}
+.webdesign h2{
+    color: blue;
+    text-align: center;
+    font-size: 60px;
+}
+.webdesign p{
+text-align: center;
+}
+
+.my-client{
+    max-width: 100%;
+    flex: 0 0 100%;
+    text-align: center;
+    padding: 50px 80px 50px 80px;
+    background-color: #E8F8FD;
+}
+.bolder{
+    max-width: 33%;
+    flex: 0 0 33%;
+    background-color:#EAE7DE ;
+    padding: 40px 30px;
+   margin-right: 20px;
+   border-radius: 7px;
+}
+.my-client2 h1{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 32px;
+
+}
+.my-client2 p{
+    text-align: center;
+    margin-bottom: 30px ;
+  
+}
+.bolder1{
+    max-width: 32%;
+    flex: 0 0 32%;
+    background-color:#EAE7DE ;
+    padding: 40px 28px;
+    margin-right: 20px;
+    border-radius: 7px;
+}
+
+.bolder2{
+    max-width: 32%;
+    flex: 0 0 32%;
+    background-color:#EAE7DE ;
+    padding: 40px 28px;
+    border-radius: 7px;
+
+}
+.my-client1 img{
+    width: 177px;
+}
+
+.contact-me{
+    max-width: 100%;
+    flex: 0 0 100%;
+    background-color: #EAE7DE;
+}
+
+.contact-me1{
+max-width:  50%;
+flex: 0 0 50%;
+padding: 100px 125px 80px 125px
+
+}
+.form{
+   background-color: #EAE7DE;
+    color: #000;
+    padding: 25px 20px;
+    border-radius: 5px;
+}
+
+.form-control{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+   border-radius: 5px;
+}
+.jessy1{
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 65px 30px 65px 20px;
+}
+
+.form h1{
+    color: rgba(196, 10, 10, 0.986);
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.form p{
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.btnstyles3{
+    background-color: red;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+}
+.phone{ 
+    max-width: 49%;
+    flex: 0 0 49%;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    background-color: #EAE7DE;
+    padding: 30px 30px;
+} 
+.phone:last-child{
+    margin-right: 0px;
+}
+.phone:nth-child(2){
+    margin-right: 0px;
+}
+
+
+.my-contacts{
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.phone1{
+    max-width: 10%;
+    flex: 0 0  10%;
+
+    
+}
+.phone2{
+    max-width: 90%;
+    flex: 0 0 90%;
+}
+.phone2 h1{
+    font-weight: 800;
+    font-size: 22px;margin-bottom: 20px;
+
+}
+.phone2 a{
+    text-decoration: none;
+
+}
+.matter h1{
+    text-align: center;
+    color: red;
+    font-weight: 900;
+    font-size: 35px;
+    margin: 35px 0px ;
+}
+.over-all{
+    padding: 20px 20px 40px 20px;
+}
+.footer{
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.footer1{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+}
